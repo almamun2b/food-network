@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.span-color {
+  color: blueviolet;
+}
+
+.top-part {
+  height: 700px;
+  background-image: url("images/shapes/frame4.jpg");
+}
+
+.middle-part {
+  height: 600px;
+  background-image: url("images/shapes/frame4.jpg");
+  background-color: #fff3ea;
+  background-repeat: round;
+}
+
+.about-me {
+  padding-top: 100px;
+}
+
+.half-width {
+  padding: 50px;
+  width: 50%;
+}
+
+.half-width p {
+  padding-right: 50px;
+  text-align: justify;
+}
+
+.button {
+  text-decoration: none;
+  background-image: linear-gradient(blue, tomato);
+  color: white;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.flexible-container {
+  display: flex;
+}
+
+.half-width img {
+  width: 80%;
+  padding-top: 30px;
+}
+
+.recipies-section {
+  background-image: url("images/shapes/frame4.jpg");
+}
+
+.bottom-part {
+  height: 700px;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.recipies-intro {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.food-menu {
+  display: flex;
+}
+
+.food-items {
+  width: 100%;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid salmon;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px salmon;
+  text-align: justify;
+}
+
+.food-items img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+}
+
+footer {
+  padding-top: 20px;
+  background-color: #292929;
+  height: 120px;
+  text-align: center;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 40px;
+  overflow: hidden;
+  background-color: #292929;
+}
+
+.home-left {
+  float: left;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.search {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+input {
+  font-size: 16px;
+}
+
+li a:hover {
+  background-color: burlywood;
+}
+
+.social-link {
+  text-align: center;
+  padding: 10px;
+  background-color: pink;
+}
+
+.social-link a {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 700;
+  color: blue;
+}
+
+textarea {
+  margin-bottom: 10px;
+  border-radius: 15px;
+  padding: 15px;
+}
